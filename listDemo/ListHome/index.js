@@ -110,7 +110,7 @@ export class HomePage extends React.Component {
     return (
       <Article>
         <div>
-          <P>draggable, sortable list example</P>
+          <P>a draggable list example</P>
         </div>
         <div style={{textAlign: 'center'}}>
           <form style={{display: 'inline'}} onSubmit={this.submit.bind(this)}>

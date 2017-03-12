@@ -21,14 +21,14 @@ function rotationBuilder(degree) {
 
 const Input = styled.input`
   animation: ${rotationBuilder(5)} 0.2s linear 2;
-  outline: none;
-  color: slategrey;
+  border: 1px solid #fafafa;
   border-radius: 5px;
+  color: slategrey;
   font-size: 1em;
   letter-spacing: 0.5px;
-  border: 1px solid #fafafa;
-  width: 350px;
+  outline: none;
   padding: 0.5em 0.5em 0.5em 2em;
+  width: 350px;
   &::-webkit-input-placeholder {
     font-style: italic;
   }
